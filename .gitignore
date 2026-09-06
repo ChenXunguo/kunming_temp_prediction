@@ -1,0 +1,56 @@
+# Python 通用
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# PyCharm IDE
+.idea/
+*.iml
+*.iws
+*.out
+
+# 机器学习模型文件【重要，不要上传训练模型】
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.pt
+
+# 数据集与输出
+data/
+output/
+tmp/
+temp/
+*.csv
+*.xlsx
+!data/sample_demo.csv
+
+# 日志
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+
